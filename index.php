@@ -1,7 +1,7 @@
  <?php
 
  include "header.php";
- include 'navigation.html';
+ include 'navigation.php';
 
 
  // content
@@ -9,6 +9,6 @@
 
  // sidebar
 
- include 'footer.html';
+ include 'footer.php';
 
  ?>

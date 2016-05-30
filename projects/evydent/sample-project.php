@@ -1,54 +1,80 @@
 <?php
 
-$PageTitle = "Clinica EvyDent";
+$PageTitle= "Clinica EvyDent";
 
 function customPageHeader(){?>
     <!--Arbitrary HTML Tags-->
 <?php }
 
-$dots = "../../css/";
+$dots = "../../";
+$CSS = "css/";
+$JS = "js/";
 
+$UIKIT = $dots . $CSS . "uikit.min.css";
+$BOOTSTRAP = $dots . $CSS . "bootstrap.css";
+$BOOTSTRAPMIN = $dots . $CSS . "bootstrap.min.css";
+$WHEREDESIGNCSS = $dots  . "wheredesign.css";
+$HOME = $dots . "index.php";
 
-$UIKIT = "uikit.css.min" . $dots;
-$BOOTSTRAP = "bootstrap.css" . $dots;
-$BOOTSTRAPMIN = "bootstrap.min.css" . $dots;
+$LOGO = $dots . "images/logo.png";
 
-
+$UIKITJS = $dots . $JS . "uikit.min.js";
+$JQUERY = $dots . $JS . "jquery.js";
+$BOOTSTRAPMINJS = $dots . $JS . "bootstrap.min.js";
+$PARALLAXJS = $dots . $JS . "parallax.min.js";
 
 include "../../header.php";
-include '../../navigation.html';
-
+include '../../navigation.php';
 
 ?>
 
 <div class="wd-container">
-    <div class="project-img evydent" data-uk-parallax="{bg: '-500'}">
+    <div class="project-img evydent"">
 
         <div class="content-0"></div>
         <div class="content-0"></div>
 
     </div>
-    <div class="container">
-        <div class="wd-margin-t-140" data-uk-parallax="{y: '-300', opacity:'0'}">
-            <div class="project-title inner ">
-                <h1 class="serifs large bold">This is the project title</h1>
-                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa distinctio dolorem eum nihil optio porro praesentium ratione reiciendis rem.</p>
+    <div class="container-fluid">
+        <div class="wd-margin-t-140">
+            <div class="project-title inner wd-lg-box-shadow" data-uk-parallax="y:-200">
+                <div class="container">
+                    <div class="col-xs-12 col-xm-12 col-md-12 col-lg-8">
+                        <h1 class="serifs large bold">Clinica EvyDent</h1>
+                        <p class="subtitle">Dental Clinic based in Bucharest</p>
+
+                    </div>
+                    <div class="col-xs-12 col-xm-12 col-md-12 col-lg-4">
+                        <div class="">
+                            <h5 class="sans-serifs text-uppercase">Project link:</h5>
+                           <a href="http://clinica-evydent.ro" target="_blank">http://clinica-evydent.ro</a>
+                          <h5 class="sans-serifs text-uppercase">Services:</h5>
+                          <p class="text-muted">Branding / Website Design / Website Development / Print Design</p>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
     <div class="wd-margin-t30">
-        <div class="col-lg-6">
-            <div class="">
-                <img src="http://placehold.it/800x400" alt="placeholder">
-                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda expedita hic id ipsa ipsum labore laudantium natus? Est expedita facilis, neque nulla officia voluptate! Accusantium deleniti molestias non quas, quidem quo repellat. Consectetur enim eum explicabo illum incidunt nisi nulla odio optio reprehenderit voluptatum. Distinctio laborum modi molestias.</p>
+        <div class="container">
+            <div class="inner">
+                <div class="col-lg-12">
+                    <div class="web-card">
+                        <img src="evydent-showcase.jpg" alt="Clinica EvyDent" class="img-responsive">
+                    </div>
+                </div>
             </div>
+           <div class="inner">
+                <div class="col-lg-6">
+                    <img src="evydent.jpg" alt="Logo Evydent">
+                </div>
+           </div>
         </div>
-        <div class="col-lg-6">
-            <div class="">
-                <img src="http://placehold.it/800x400" alt="placeholder">
-                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda expedita hic id ipsa ipsum labore laudantium natus? Est expedita facilis, neque nulla officia voluptate! Accusantium deleniti molestias non quas, quidem quo repellat. Consectetur enim eum explicabo illum incidunt nisi nulla odio optio reprehenderit voluptatum. Distinctio laborum modi molestias.</p>
-            </div>
-        </div>
+
+
     </div>
     <div class="content-0"></div>
     <div class="content-0"></div>
@@ -65,6 +91,6 @@ include '../../navigation.html';
 
 <?php
 
-include '../../footer.html';
+include '../../footer.php';
 
 ?>

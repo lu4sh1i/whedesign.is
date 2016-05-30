@@ -1,7 +1,7 @@
 <?php
 
 include "header.php";
-include 'navigation.html';
+include 'navigation.php';
 ?>
 
 <div class="wd-container">
@@ -46,6 +46,6 @@ include 'navigation.html';
 
 
 <?php
-include 'footer.html';
+include 'footer.php';
 
 ?>
