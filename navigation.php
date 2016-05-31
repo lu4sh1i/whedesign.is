@@ -12,10 +12,10 @@
 
             <div class="row">
                 <div class="pull-right">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown" data-uk-dropdown>
+                    <ul class="nav navbar-nav uk-navbar-nav">
+                        <li class="dropdown uk-parent" data-uk-dropdown>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Studio <span class="caret"></span></a>
-                            <ul class="dropdown-menu wd-dropdown uk-dropdown-navbar" >
+                            <ul class="dropdown-menu wd-dropdown uk-dropdown uk-dropdown-navbar" >
                                 <li><a href="#">YOUR BRAND</a></li>
                                 <li><a href="#">YOUR WEBSITE</a></li>
                             </ul>
