@@ -1,6 +1,6 @@
 <div class="footer">
   <div class="container">
-    <div class="col-lg-6"><img src="images/logo_grayscale_text.png" class="pull-left footer-logo"/>
+    <div class="col-lg-6"><img src="<?= isset($FOOTERLOGO) ? $FOOTERLOGO : 'images/logo_grayscale_text.png'?>" class="pull-left footer-logo"/>
       <div class="contact pull-left">
           <a href="tel:+40773719332"><i class="uk-icon-mobile-phone"></i> +40773719332</a>
           <a href="mailto:hello@wheredesign.is"><i class="uk-icon-envelope"></i> hello@wheredesign.is</a>
@@ -30,6 +30,7 @@
 <script src="<?= isset($UIKITJS) ? $UIKITJS : 'js/uikit.min.js'?>"></script>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
 <script src="<?= isset($BOOTSTRAPMINJS) ? $BOOTSTRAPMINJS : 'js/bootstrap.min.js'?>"></script>
 <script src="<?= isset($PARALLAXJS) ? $PARALLAXJS : 'js/parallax.min.js'?>"></script>
 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default uk-navbar">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="container">
@@ -12,10 +12,10 @@
 
             <div class="row">
                 <div class="pull-right">
-                    <ul class="nav navbar-nav visible-lg visible-md visible-sm">
-                        <li class="dropdown">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown" data-uk-dropdown>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Studio <span class="caret"></span></a>
-                            <ul class="dropdown-menu wd-dropdown">
+                            <ul class="dropdown-menu wd-dropdown uk-dropdown-navbar" >
                                 <li><a href="#">YOUR BRAND</a></li>
                                 <li><a href="#">YOUR WEBSITE</a></li>
                             </ul>

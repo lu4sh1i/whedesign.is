@@ -98,11 +98,68 @@
   </script>
 
  </section>
-<div class="content-0"></div>
- <div class="content-0"></div>
 
 
+ <figure class="uk-overlay center-block">
+     <img src="images/reswebdev.jpg" width="2000" height="" alt="ready">
+     <figcaption class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle ">
+         <div data-uk-parallax="y:300, opacity:0" class="uk-width-1-2">
+             <h1 class="text-uppercase serifs font-w-100">Responsive Web Development</h1>
+             <div class="no-padding">
+                 <p class="text-white">
+                     Be it for PC, laptop, tablet or phone,
+                     we pride ourselves on developing state-of-the-art,
+                     creative, functional and productive websites.
+                     Websites designed to maximize your online presence and support your organizational goals.  
+                     <br>
+                     Websites that help you grow.
+                 </p>
+             </div>
+         </div>
+     </figcaption>
+ </figure>
+ <figure class="uk-overlay center-block">
+     <img src="images/viside.jpg" width="2000" height="" alt="ready">
+     <figcaption class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle ">
+         <div data-uk-parallax="y:300, opacity:0" class="uk-width-1-2">
+             <h1 class="text-uppercase serifs font-w-100">Visual Identity</h1>
+             <div class=" no-padding">
+                 <p class="text-white">
+                     Whether we like it or not, a book does get judged by its cover. So, we make sure your cover says the right things and projects the right message.  
+                     Be it online or in print your identity will be relevant, properly reflect your organization and be clearly understood by all.
+                 </p>
+             </div>
+         </div>
+     </figcaption>
+ </figure>
 
+
+ <figure class="uk-overlay center-block">
+     <img src="images/grade.jpg" width="2000" height="" alt="ready" >
+     <figcaption class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle">
+         <div data-uk-parallax="y:300, opacity:0" class="uk-width-1-2">
+             <h1 class="text-uppercase serifs font-w-100">Graphic Design</h1>
+             <div class=" no-padding">
+                 <p class="text-white">
+                     The Graphic Designer - an indispensable person in any company. Graphic Design makes what was once impossible possible.
+
+                     You don't need to hire an in-house Graphic Designer. As long as you have us.
+                 </p>
+             </div>
+         </div>
+     </figcaption>
+ </figure>
+
+
+ <figure class="uk-overlay center-block">
+        <img src="images/FOOTER-CTA.png" width="2000" height="" alt="ready">
+        <figcaption class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+                <h1 class="text-uppercase">Ready to get started?</h1>
+                <a href="mailto:hello@wheredesign.is" class="wd-sm-box-shadow uk-button button-aqua uk-button-large wd-large-btn wd-color">Contact us</a>
+            </div>
+        </figcaption>
+    </figure>
 
 
 

@@ -18,6 +18,7 @@ $ANIMATE = $dots . $CSS . "animate.css";
 $HOME = $dots . "index.php";
 
 $LOGO = $dots . "images/logo.png";
+$FOOTERLOGO = $dots . "images/logo_grayscale_text.png";
 
 $UIKITJS = $dots . $JS . "uikit.min.js";
 $JQUERY = $dots . $JS . "jquery.js";
@@ -38,7 +39,7 @@ include '../../navigation.php';
     </div>
     <div class="container-fluid">
         <div class="wd-margin-t-140">
-            <div class="project-title inner wd-lg-box-shadow" data-uk-parallax="y:-200">
+            <div class="project-title inner wd-lg-box-shadow" data-uk-parallax="{'y:-200'}">
                 <div class="container">
                     <div class="col-xs-12 col-xm-12 col-md-12 col-lg-8">
                         <h1 class="serifs large bold">Clinica EvyDent</h1>
@@ -87,8 +88,7 @@ include '../../navigation.php';
 
 
 
-<div class="wd-margin-b30"></div>
-
+<div class="content-0"></div>
 
 <?php
 
