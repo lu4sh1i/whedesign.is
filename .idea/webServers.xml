@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19bf424a-8d48-49a8-ba38-46a143fced60" name="ec2" url="http://ec2-52-58-168-151.eu-central-1.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-58-168-151.eu-central-1.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/Documents/key_pair/wdi-160505.pem" rootFolder="/var/www/" accessType="SFTP" username="ec2-user" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="785f50bf-3925-4852-a963-2a863a6f22d9" name="local" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>

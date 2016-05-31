@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="<?= isset($UIKIT) ? $UIKIT : 'css/uikit.min.css'?>" >
     <link href="<?= isset($BOOTSTRAP) ? $BOOTSTRAP : 'css/bootstrap.min.css'?>" rel="stylesheet">
     <link href="<?= isset ($BOOTSTRAPMIN) ? $BOOTSTRAPMIN :'css/bootstrap-theme.min.css'?>" rel="stylesheet">
+    <link href="<?= isset ($STYLECSS) ? $STYLECSS :'css/style.css'?>" rel="stylesheet">
+    <link href="<?= isset ($ANIMATE) ? $ANIMATE :'css/animate.css'?>" rel="stylesheet">
     <link rel="stylesheet" href="<?= isset($WHEREDESIGNCSS) ? $WHEREDESIGNCSS : 'wheredesign.css'?>">
+
+    <script src="<?= isset($JQUERY) ? $JQUERY : 'js/jquery.js'?>"></script>
+    <script src="<?= isset($PLUGINS) ? $PLUGINS : 'js/plugins.js'?>"></script>
+    <script src="https://use.fontawesome.com/1c3526424e.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,3 +33,13 @@
 
 </head>
 <body>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-74371827-1', 'auto');
+    ga('send', 'pageview');
+
+</script>

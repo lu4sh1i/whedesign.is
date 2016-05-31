@@ -19,12 +19,12 @@ include 'navigation.php';
             <h1 class="sans-serifs">OUR RECENT WORKS</h1>
             <div class="wd-margin-t30"></div>
             <div class="projects uk-grid">
-                <a href="projects/evydent/sample-project.php" class="uk-width-1-4">
+                <a href="projects/evydent/index.php" class="uk-width-1-4">
                     <div class="web-card ">
                         <img src="images/where-design-is.png" alt="" class="img-responsive" />
                         <div class="name">
-                            <h1 class="project-name">Project X</h1>
-                            <h4 class="project-desc">Movie poster</h4>
+                            <h1 class="project-name">Clinica EvyDent</h1>
+                            <h4 class="project-desc">Dental clinic</h4>
                         </div>
                     </div>
                 </a>
